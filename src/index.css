@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  margin: 0px !important;
+  font-family: 'Comic Neue', cursive;
+}
+
+.container {
+  width: 100%;
+  max-width: 1158px ;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+
+/* @media (min-width: 576px){
+  .container {
+    max-width: 540px ;
+}
+} */
+
+
+p {
+  font-size: 1.1rem;
+  line-height: 1.54;
+ 
+}
+
+.mainBg {
+  background-color: #3AB67A;
+}
+.bgd{
+  background-image: url(../src/assects/images/bgd.png);
+  background-repeat: no-repeat;
+  height: 480px;
+  background-size: cover;
+}
+
+@media (min-width: 300px)and (max-width:1023px) {
+  .mainBg {
+    background: radial-gradient(circle, #f7b52b 0%, #ff8a00 100%);
+  }
+
+}
+  
